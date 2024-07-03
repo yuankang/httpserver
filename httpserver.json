@@ -1,0 +1,13 @@
+{
+    "HttpPort":"8082",
+    "HttpsPort":"8083",
+    "HttpsUse":true,
+    "HttpsCrt":"/usr/local/httpserver/ca/public.crt",
+    "HttpsKey":"/usr/local/httpserver/ca/private.key",
+    "LogFilePath":"/usr/local/httpserver/httpserver.log",
+    "LogFileSize":200,
+    "LogFileNum":10,
+    "LogSaveDay":15,
+    "AllowOrigin":"*",
+    "ReadHeaderTimeout":2
+}
